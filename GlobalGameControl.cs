@@ -7,7 +7,8 @@ using System.IO;
 using UnityEngine.SceneManagement;
 
 /// <summary>
-///  Needs to be in Every level. "Game Master"
+///  Needs to persist in Every level. "Game Master" 
+///  This sets to don't destroy on load, therefore it will follow the game scene transitions.
 /// </summary>
 
 
